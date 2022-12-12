@@ -1,0 +1,55 @@
+body{
+    background-color: #EEF5FF;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+header{
+    display: flex;
+}
+
+nav{
+    height: 90px;
+    line-height: 90px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 30px;
+}
+nav ul a{
+    color: #000000;
+    font-size: 20px;
+}
+
+.logo{
+    width: 4em;
+}
+
+.ctText{
+    margin: 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+.titlePic{
+    width: 100%;
+}
+
+.newsDiv{
+    background-color: #003D8F;
+    color: #FFFFFF;
+    max-height: 25em;
+    width: 40%;
+    text-align: center;
+    position: absolute;
+    left: 30%;
+    top: 80%;
+}
+
+.newsDiv .newsTitle{
+    font-size: 35px;
+}
+
+.newsDiv .newsAction{
+    font-size: 20px;
+    text-decoration: none;
+    color: inherit;
+}
