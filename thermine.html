@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="icon" type="image/icon" href="resources/CeviLogo.ico">
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="materialize/materialize.min.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="style.css"  media="screen,projection"/>
@@ -17,7 +19,9 @@
     <header>
         <nav>
             <div class="nav-wrapper">
-              <a class="ctText left" href="index.html">Cevi Teufen</a>              <ul id="" class="right">
+              <img class="navLogo left" src="resources/CeviLogo.png">
+              <a class="ctText left" href="index.html">Cevi Teufen</a>              
+              <ul id="" class="right">
                 <li><a href="instagram.html">Instagram</a></li>
                 <li><a href="thermine.html">Thermine</a></li>
                 <li><a href="gruppen.html">Gruppen</a></li>
@@ -29,6 +33,18 @@
           </nav>
     </header>
 
+    <div class="thermineContent content">
+      <div class="left thermineLeft">
+        <p class="thermP">Das Programm findet jeweils von 14:00 bis 17:00 beim Hecht (gegenüber von Hechtstrasse 2, 9053 Teufen) statt.</p>
+        <!--Ich habe mich dazu entschieden hier noch eine Karte einzubetten um den Besuchern besser zu zeigen wo unser Vereinshaus ist.-->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2701.1391091672235!2d9.386114515887407!3d47.389718610927645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479b1f4ce3644ef3%3A0xe67960395e2806fb!2sCevi%20Hecht!5e0!3m2!1sde!2sch!4v1671619296048!5m2!1sde!2sch" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      
+      <div class="thermineRight right">
+        <embed class="thermEmbed" src="resources/Semesterplan-22_2.pdf" width="500" height="375" type="application/pdf">
+      </div>
+    </div>
+    
 
     <script type="text/javascript" src="materialize/materialize.min.js"></script>
     <script type="text/javascript" src="script.js"></script>

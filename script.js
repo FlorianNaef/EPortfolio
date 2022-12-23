@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
+    
+
     var elems = document.querySelectorAll('.carousel');
     var options = {
         fullWidth: true,
@@ -21,3 +23,4 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }, 6000);
 });
+

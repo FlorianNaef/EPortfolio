@@ -1,7 +1,17 @@
 body{
+    height: 100%;
+    margin: 0;
     background-color: #EEF5FF;
     font-family: 'Titillium Web', sans-serif;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
 
 header{
     display: flex;
@@ -19,8 +29,28 @@ nav ul a{
     font-size: 20px;
 }
 
-.logo{
-    width: 4em;
+/*Ich habe mich anders als im Mockup für ein 20/60/20 Layout entschieden. */
+.content{
+    margin: 1% 20%;
+}
+
+.content h3{
+    font-size: 2em;
+}
+
+.content p{
+    margin-left: 1%;
+    font-size: 1.2em;
+}
+
+.content ul{
+    margin-left: 1%;
+    font-size: 1.2em;
+}
+
+.navLogo{
+    margin: 1.1%;
+    height: 50%;
 }
 
 .ctText{
@@ -29,8 +59,8 @@ nav ul a{
     color: inherit;
 }
 
-.titlePic{
-    width: 100%;
+.carousel{
+    height: 750px;
 }
 
 .newsDiv{
@@ -52,4 +82,99 @@ nav ul a{
     font-size: 20px;
     text-decoration: none;
     color: inherit;
+}
+
+.instaEmbed{
+    width: 100%;
+    height: 100vh;
+}
+
+.thermineContent{
+    font-size: 1.6em;
+}
+
+.thermineContent iframe{
+    width: 100%; 
+    height: 450px; 
+}
+
+.thermineLeft{
+    width: 50%;
+}
+
+.thermEmbed{
+    height: 80vh;;
+}
+
+.thermP{
+    white-space: wrap;
+}
+
+.ueberunsUl{
+    list-style-type: circle;
+}
+
+.laedeliContact{
+    margin-left: 1%;
+    padding: 1%;
+    background-color: #003D8F;
+    color: #ffffff;
+}
+
+.laedeliContent{
+    font-size: 1.5em;
+}
+
+.laedeliContent iframe{
+    --width: 100vw;
+
+    margin: 2% 1%;
+    width: 100%;
+    height: calc(var(--width)/2.95);
+}
+
+.kontaktContent .input-field label {
+    color: #000000;
+    font-size: 1.2em;
+}
+
+.kontaktContent .input-field input[type=text]:focus + label {   
+    color: #000000;
+}
+
+.kontaktContent .input-field input[type=text]:focus {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+.sendenBtn{
+    background-color: #003D8F;
+    margin: 0% 0.75rem;
+}
+
+.sendenBtn:hover{
+    background-color: #003D8F;
+}
+
+.gruppenContent{
+    display: grid;
+    grid-template-columns: 60% auto;
+    grid-gap: 5vh 0px;
+}
+
+.gruppenContent h3{
+    font-size: 3em;
+    margin: 0;
+}
+
+.glPic{
+    height: 30vh;
+}
+
+.glPic img{
+    height: inherit;
+}
+
+.solaContent h1{
+    font-size: 3em;
 }

@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="icon" type="image/icon" href="resources/CeviLogo.ico">
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="materialize/materialize.min.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="style.css"  media="screen,projection"/>
@@ -17,7 +19,9 @@
     <header>
         <nav>
             <div class="nav-wrapper">
-              <a class="ctText left" href="index.html">Cevi Teufen</a>              <ul id="" class="right">
+              <img class="navLogo left" src="resources/CeviLogo.png">
+              <a class="ctText left" href="index.html">Cevi Teufen</a>              
+              <ul id="" class="right">
                 <li><a href="instagram.html">Instagram</a></li>
                 <li><a href="thermine.html">Thermine</a></li>
                 <li><a href="gruppen.html">Gruppen</a></li>
@@ -29,6 +33,27 @@
           </nav>
     </header>
 
+    <div class="kontaktContent content">
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email" class="mat-label">Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea id="nachrichtTa" class="materialize-textarea"></textarea>
+              <label for="nachrichtTa" class="mat-label">Nachricht</label>
+          </div>
+        </form>
+      </div>
+
+      <button class="btn waves-effect waves-light sendenBtn" type="submit" name="action">Nachricht senden
+        <i class="material-icons right">send</i>
+      </button>
+    </div>
 
     <script type="text/javascript" src="materialize/materialize.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
